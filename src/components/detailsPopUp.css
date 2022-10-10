@@ -1,0 +1,61 @@
+/* Single Movie Modal  */
+
+.singleMovieContainer {
+  background-color: #0d121d;
+  height: 70vh;
+  display: flex;
+}
+
+/* Single Movie Modal image section  */
+
+.singleMovieImg {
+  flex: 1;
+}
+.singleMovieImg img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+/* Single Movie Modal Details Text section  */
+
+.singleMovieDetails {
+  flex: 1.5;
+  color: #fff;
+  padding: 5vh;
+}
+
+.singleMovieTitle {
+  font-size: 42px;
+  font-weight: 600;
+  color: #bf9d3d;
+}
+.singleMovieTagline {
+  font-weight: 400;
+  color: #cdba88;
+}
+
+.releaseDate {
+    padding: 5px 0;
+    font-size: medium;
+    color: #cacaca;
+    padding-right: 3px;
+margin-top: 20px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #5f5f5f;
+  margin-top: 15px;
+}
+.runtime {
+  padding: 5px 0;
+  font-size: medium;
+  color: #cacaca;
+  padding-right: 3px;
+}
+
+.lang {
+  font-size: medium;
+  color: #cacaca;
+  padding-right:10px;
+}

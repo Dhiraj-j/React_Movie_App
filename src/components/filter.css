@@ -1,0 +1,39 @@
+.filterContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C111B;
+    padding: 20px;
+}
+.inputBox {
+    padding: 10px;
+    background-color: #0C111B;
+    width: 20%;
+    color: #fff;
+    border: none;
+
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -o-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
+    
+    
+}
+.inputBox:focus{
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid blue;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    width: 30%;
+    border-radius: 0;
+    background: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    -o-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}

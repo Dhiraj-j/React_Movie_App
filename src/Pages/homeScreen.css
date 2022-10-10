@@ -1,0 +1,30 @@
+.home_container{
+    min-height: 100vh;
+    background-color: #0C111B;
+    padding: 0 10px;
+    padding-bottom:5px ;
+    
+}
+.movies_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.loadingScreen{
+    margin: auto;
+}
+
+.loadingScreenContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noMovieMsg{
+    text-align: center;
+    color: rgb(247, 83, 83);
+    height: 50%;
+    margin: auto auto;
+    font-size:24px;
+}
